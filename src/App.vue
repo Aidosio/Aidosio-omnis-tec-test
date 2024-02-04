@@ -5,9 +5,9 @@ import EditForm from "@/components/EditForm.vue";
 
 <template>
   <div class="container mx-auto">
-    <div class="flex h-screen">
+    <div class="flex flex-col md:flex-row h-screen">
       <ListComponent/>
-      <EditForm />
+      <EditForm/>
     </div>
   </div>
 </template>

@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <div class="w-1/3 bg-gray-100 p-4 overflow-auto">
+  <div class="w-3/3 md:w-1/3 bg-gray-100 p-4 overflow-auto">
     <ul>
       <li v-for="item in servers.data" :key="item.customer_id" @click="servers.selectServerFun(item)" class="cursor-pointer hover:bg-gray-200 p-2">
         {{ item.server_name }} ({{ item.server_type }})
