@@ -10,6 +10,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
+      publicPath: `/omnis-tec-test/`,
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   }
