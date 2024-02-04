@@ -8,7 +8,7 @@ const selectedServer = computed(() => servers.selectedServer);
 </script>
 
 <template>
-  <div class="w-2/3 bg-gray-50 p-4">
+  <div class="w-3/3 md:w-2/3 bg-gray-50 p-4">
     <div v-if="selectedServer" class="space-y-4">
       <div>
         <label for="serverName" class="block mb-2">Server Name</label>
