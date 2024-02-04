@@ -5,12 +5,12 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: `/omnis-tec-test/`,
   plugins: [
     vue(),
   ],
   resolve: {
     alias: {
-      publicPath: `/omnis-tec-test/`,
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   }
